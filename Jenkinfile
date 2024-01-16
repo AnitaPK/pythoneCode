@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Clone') {
             steps {
-                git branch: 'main', credentialsId: 'CICDGitHub', url: 'https://github.com/AnitaPK/pythoneCode.git'
+                git branch: 'main', credentialsId: 'internBatch2', url: 'https://github.com/AnitaPK/pythoneCode.git'
             }
         }
 
